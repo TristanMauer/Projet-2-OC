@@ -9,14 +9,19 @@ margin-bottom: 0px;
 color: black;
 }
 h1{
+
+  font-weight: bold;
   margin-top: 50px;
   font-size: 22px;
 }
 h2{
+  font-weight: bold;
   font-size: 18px;
 
 }
 h3{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-weight: bold;
   font-size:16px ;
 }
 p{
@@ -29,14 +34,14 @@ p{
 a {color: black;
   text-decoration: none;}
 /*NAV*/
-nav {
+header {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;     
 }
-nav img {
+header img {
   width: 61px;
   height: 19px;
 }
@@ -102,6 +107,7 @@ flex-direction: row;
  display: flex;
  flex-direction: row;
  align-items: flex-start;
+ align-items: center;
  margin-top: 3em;
 }
 .flex-filtres{
@@ -110,6 +116,7 @@ flex-direction: row;
     flex-wrap: wrap;
 }
 button{
+
   border-radius: 30px;
   border:2px solid #F2F2F2;
   padding: 10px 15px 10px 15px;
@@ -122,16 +129,8 @@ button:hover{
   background-color:#DEEBFF ;
 }
 
-.icone-info{
- border: solid 1px #F2F2F2;
-  width: 24px;
-  height: 24px;
-  border-radius: 30px;
-  background: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 .information{
   display: flex;
   flex-direction: row;

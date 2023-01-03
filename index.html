@@ -4,9 +4,12 @@
 <head>
     <title>Booki</title>
     <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link href="css/style.css" rel="stylesheet" >
 <link href="css/main.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
+<link href="css/tablette.css" rel="stylesheet">
+<link href="css/mobile.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
@@ -14,9 +17,9 @@
 <script src="https://kit.fontawesome.com/853b596fd4.js" crossorigin="anonymous"></script>
 <body>
     <!-- Entete de la page-->
-    <header>
-        <nav>
-            <img src="images/logo/Booki.png" alt="Logo Booki" class="logo-booki">
+    <header class="marge">
+        <img src="images/logo/Booki.png" alt="Logo Booki" class="logo-booki">
+          <nav >  
         <div class="liens-angrage">
             <a href="#hebergement">Hébergements</a>
             <a href="#activites">Activités</a>
@@ -25,7 +28,7 @@
       
         </header>
         <!-- Formulaire = Filtres-->
-    <section>
+    <section class="marge">
      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
      
@@ -52,9 +55,9 @@
         </div>
         </form>
         </section>  
-    <section>
+    <section class="marge">
         <div class="conteneur-filtres">
-        <div class="filtres">
+        <div class="filtres ">
         <h2>Filtres</h2>
        </div>
        <div class="flex-filtres">
@@ -73,9 +76,7 @@
     </div>
     </div>
 <div class="information">
-    <div class="icone-info">
     <i class="fa-solid fa-info"></i>
-</div>
     <div class="p-information">
     <p>Plus de 500 logements sont disponibles dans cette ville</p>
 </div>
@@ -86,9 +87,9 @@
         <section>
         <div class="conteneur-box-gris">
         <div class="box-gris" >
-            <h1 id="hebergement">Hébergements à Marseille</h1>
+            <h1 id="hebergement ">Hébergements à Marseille</h1>
         <div class="flex-card">
-            <article class="card  "> 
+            <article class="card"> 
               <a href="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"> 
                 <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo de l'auberge la canebière" style="max-width:100%" ></a>
                 <div class="container">
@@ -180,7 +181,7 @@
   </div>
 </article>     
     </div> 
-    <a href="#"><h2>Afficher plus</h2></a>
+    <a href="#" class="afficher"><h2>Afficher plus</h2></a>
 </div>
 <div class="box-gris2">
     <div class="flex-icone">
@@ -238,8 +239,8 @@
         </div>
 </article>
 </div>
-</div>
-</div>
+    </div>
+    </div>
 </section>
     <section>
         <h1 id="activites"> Activités à Marseille</h1>
