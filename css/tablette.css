@@ -1,13 +1,20 @@
 @media screen and (max-width:992px){
-  .conteneur-filtres{
+  /*Filtres*/
+    .conteneur-filtres{
     display:flex;
     flex-direction: row;
 
   }
+
   button{
-      width:80%;
-  padding-left: 0%;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    width: fit-content ;
+    
   }
+  /*Herbergement*/
   .conteneur-box-gris{ 
         display: flex;
         flex-direction: column;
@@ -15,12 +22,13 @@
       }
       .box-gris{
         width: 100%;
-margin-bottom: 3em;
-padding-bottom: 2em;
+        margin-bottom: 3em;
+        padding-bottom: 2em;
       }
       .flex-icone{
-        margin: 0 2em 0 2em ;
+        margin: 0 0.5em 0 0.5em ;
       }
+      /*Populaire*/
       .box-gris2{
         width: 100%;
         padding-bottom: 2em;
@@ -35,12 +43,12 @@ padding-bottom: 2em;
     .flex-card2{
         display: flex;
         flex-direction: row;
-        margin-left: 2em;
+        margin-left: 0.5em;
     }
       .card2{
         display: flex;
         flex-direction:row ;
-        width: 28%;
+        width: 30%;
         height:10em;
       }
       .étoile-populaire{
@@ -49,6 +57,7 @@ padding-bottom: 2em;
         width: 12px;
         height: 12px;
       }
+      /*Activité*/
       .card3{
         width: 20%;
         height: 16em;

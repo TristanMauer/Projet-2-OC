@@ -17,7 +17,10 @@
   .box-gris h2{
     margin-top: 50px;  
   }
-
+.box-gris h3{
+    margin-top:10px;
+    margin-bottom: 5px;
+  }
   .box-gris{ 
     border: #F2F2F2 solid 1px;
     background-color: #F2F2F2;
@@ -53,10 +56,7 @@
     background-color: white;
     border-radius: 20px;
   }
-  .box-gris h3{
-    margin-top:10px;
-    margin-bottom: 5px;
-  }
+  
   .fa-star{
     padding-top: 0.5em;
     display: flex;
@@ -85,7 +85,7 @@
   }
   .fa-chart-line{
     margin-top: 3em;
-    margin-right:  2em;
+    margin-right:  3em;
   }
 .card2 .container{
     margin-left: 1em;
@@ -112,10 +112,6 @@
     
     }
     
-    .étoile-populaire{
-     
-      margin-bottom: 1em;
-    }
     .flex-card2{
         display: flex;
         flex-direction: column;
