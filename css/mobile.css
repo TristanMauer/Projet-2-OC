@@ -1,12 +1,10 @@
 @media screen  and (max-width:768px) {
    /*Body*/
-   
    body{
     margin: 0px;
-    padding: 0px;
    }
    .marge{
-    margin: 1em;
+    margin: 2.5em;
    }
     /*Header*/
     header{
@@ -40,6 +38,7 @@
          display: flex;
          justify-content: center;
         }
+      
         .fa-magnifying-glass{  
           color:white;
           }
@@ -55,70 +54,48 @@
   .conteneur-filtres{
     display:block;
   }
-  .filtres{
-    display: flex;
-    text-align: start;
-  }
+ 
   .flex-filtres{
       display: grid;
       grid-template-columns: 0.5fr 0.5fr;
       gap: 10px;
       white-space: nowrap;
-      justify-content: center;
   }
   .bouton-filtres{
      width: 100%;
     height: 100%;
-    padding-left: 0px;
-    margin: auto;
   }
   button{
     width: 100%;
     margin: 0 auto;
   }
-  
-  .information{
-    margin-left: 1em;
-  }
   /*Les plus populaires*/
   .conteneur-box-gris{
       display: flex;
-      flex-direction: column-reverse;
-      
+      flex-direction: column-reverse;  
   }
-  .box-gris2{
-    margin: 0px;
-     width: 100%;
-     border: #F2F2F2 solid 1px;
-     background-color: #F2F2F2;
+  .conteneur-populaire{
      border-radius: 0;
-  }
-  
+  }  
   .flex-carte2{
       display: flex;
       flex-direction: column;
-      margin-right: 2em;
   }
   .carte2{
-      width: 90%;
-      height: 10em;
+      width: 90%;  
+    height: 15em;
   }
-  
+  .carte2 img{
+    width: 15em;
+  }
   /*Hébergement*/
-  .box-gris{
-    width: 100%;
-    border: 0;
+  .conteneur-hébergement{
+    border: none;
     background: white;
-
-  }
-  .flex-carte{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .carte{
     margin-left: 0px;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-right: 2em;
     padding-bottom: 1em;
@@ -127,29 +104,24 @@
     width: 100%;
     height: 15em;
     margin-left: 0;
+    object-fit:cover;
+    object-position: center;
   }
   .afficher{
     display: none;
   }
   /*Activités*/
-  #activites{
-    margin-left: 3em;
-  }
-  .flex-carte3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+ #activites{
+  margin-left: 2.5em;
+ }
   .carte3{
-    width: 90%;
-    height: 13em;
+    width: 100%;
+    height: 25em;
+    margin-right: 2em;
   }
   /*Footer*/
-  .box-gris3{
-    margin-right: 0px;
-    width: 100%;
-  }
-  .footer-liste{
+
+  .liste-pied-de-page{
     display: flex;
     flex-direction: column;
     margin-left: 3em;

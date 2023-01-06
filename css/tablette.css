@@ -1,67 +1,41 @@
 @media screen and (max-width:992px){
  *{
-  font-size:9px;
-
+  font-size:10px;
  }
- /*Header*/
- .ancre:hover{
-  padding-top: 3em;}
-  /*Filtres*/
-    .conteneur-filtres{
-    display:flex;
-    flex-direction: row;
-
-  }
-
-
   /*Herbergement*/
   .conteneur-box-gris{ 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
       }
-      .box-gris{
+      .conteneur-hébergement{
         width: 100%;
         margin-bottom: 3em;
         padding-bottom: 2em;
       }
       .carte{
-        margin-left: 0;
         width: 29%;
-        
       }
       .carte img{
-        height: 13em;}
-      
+        height: 13em;
+      }
       /*Populaire*/
-      .box-gris2{
+      .conteneur-populaire{
         width: 100%;
         padding-bottom: 2em;
       }
       .flex-icone{
-        margin-right: 5.5em;
+        margin-right: 4em;
       }
-    .flex-card2{
+    .flex-carte2{
         display: flex;
         flex-direction: row;
-        margin-left: 2.5em;
     }
       .carte2{
-        display: flex;
-        flex-direction:row ;
-        width:29%;
-        height:12em;
-      }
-      .étoile-populaire{
-        display: flex;
-        flex-direction: row;
+        width:30%;
+        height:11em;
       }
       /*Activité*/
-      .carte3{
-        width: 20%;
-        height: 16em;
-        padding-bottom: 1em;
-      }
       .carte3 img{
     height: 80%;
       }
