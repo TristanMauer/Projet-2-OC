@@ -15,10 +15,10 @@
 		</head>
 		<body>
 			<!-- Entete de la page-->
-		<header >
-			<img src="images/logo/Booki.png" alt="Logo Booki" class="logo-booki">
-			<nav class="liens-ancrage">
-                    <a class="ancre"  href="#hebergement">Hébergements</a>
+		<header>
+			<img src="images/logo/Booki.png" alt="Logo Booki" class="logo-booki marge">
+			<nav class="liens-ancrage marge">
+                    <a class="ancre "  href="#hebergement">Hébergements</a>
                     <a class="ancre" href="#activites">Activités</a>
 			</nav>
 		</header>
@@ -26,25 +26,19 @@
 		<section class="marge">
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p> En plein centre-ville ou en pleine nature </p>
+			<!-- barre de recherche Desktop/tablette-->
 			<form method="get" action="#" class="recherche-barre">
 				<div class="formulaire">
 					<div class="icone-map icone-center">
 					    <i class="fa-solid fa-location-dot"></i>
 					</div>
+					
 					<div>
 						<input type="search" placeholder="Marseille, France" name="recherche" class="recherche">
 					</div>
 					<button class="bouton-recherche icone-center icone-blanche">Rechercher</button>
-				</div>
-			</form>
-			<form method="get" action="#" class="recherche-barre-téléphone">
-				<div class="formulaire">
-					<div class="icone-map icone-center">
-						<i class="fa-solid fa-location-dot"></i>
-					</div>
-					<div>
-						<input type="search" placeholder="Marseille, France" name="recherche" class="recherche">
-					</div>
+				
+			<!-- barre de recherche Mobile-->
 					<button class="bouton-loupe icone-center"><i class="fa-solid fa-magnifying-glass"></i></button>
 				</div>
 			</form>
@@ -78,12 +72,12 @@
 					<p> Plus de 500 logements sont disponibles dans cette ville </p>
 				</div>
 			</div>
-				<!-- Hébergements -->
 		</section>
 		<main>
 		<section>
 			<div class="conteneur-box-gris ">
 				<div class="conteneur-hébergement Boite-grise ">
+					<!--Hébergement-->
 					<h1 id="hebergements">Hébergements à Marseille</h1>
 					<div class="flex-carte">
 					<article class=" carte carte-hotel">

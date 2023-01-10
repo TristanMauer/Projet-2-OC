@@ -3,18 +3,14 @@
    body{
     margin: 0px;
    }
-   .marge{
-    margin: 2.5em;
-   }
+  
     /*Header*/
     header{
-      margin-top: 2em;
       flex-direction: column;
       align-items: center;
     }
  .liens-ancrage{
   display: flex;
-    margin: 2em 0 2em 0;
     width: 100%;
   }
   .ancre{
@@ -31,19 +27,22 @@
     border-bottom: #0065FC solid 3px;
   }    
     /*Formulaire*/
-      .recherche-barre{
-          display: none;
+      .bouton-recherche{
+        display: none;
       }
-      .recherche-barre-téléphone{
-         display: flex;
-         justify-content: center;
+      .bouton-loupe{
+         display: block;
         }
-      
+      .recherche-barre{
+        display: flex;
+        justify-content: center;
+      }
         .fa-magnifying-glass{  
           color:white;
           }
       .bouton-loupe{
         padding: 0;
+        margin: 0;
         background-color: #0065FC;
         border-radius: 0 15px 15px 0;
         border: #0065FC;
@@ -90,8 +89,7 @@
   }
   /*Hébergement*/
   .conteneur-hébergement{
-    border: none;
-    background: white;
+    background:none;
   }
   .carte{
     margin-left: 0px;
@@ -105,7 +103,7 @@
     height: 15em;
     margin-left: 0;
     object-fit:cover;
-    object-position: center;
+    object-position:center;
   }
   .afficher{
     display: none;
@@ -124,6 +122,6 @@
   .liste-pied-de-page{
     display: flex;
     flex-direction: column;
-    margin-left: 3em;
+
   }
 }

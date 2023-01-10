@@ -1,12 +1,18 @@
 /* Body*/
 *{
-  max-width: 1400px;
+ 
   font-family: 'Raleway', sans-serif; 
   font-size: 12px;
+  
 }
-body{
-margin:0 2em 0 2em;
+body{ 
+max-width: 1400px;
+margin-right: auto;
+margin-left: auto;
 }
+.marge{
+  margin: 2.5em;
+ }
 .fa-solid{
   color:#0065FC ;
 }
@@ -30,11 +36,8 @@ a {
 }
   /*NAV*/
 header {
-    margin-top: 2.5em;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;  
+  justify-content: space-between;
 }
 header img {
   width: 61px;
@@ -46,7 +49,7 @@ header img {
 .ancre:hover{
   border-top: #0065FC solid 3px;
   color:#0065FC;
-  padding-top: 2.5em;
+  padding-top: 3em;
 }
 
   /*Formulaire*/
@@ -73,7 +76,7 @@ display: flex;
   color:black;
   font-weight: bold;
 }
-.recherche-barre-téléphone{
+.bouton-loupe{
   display: none;
 }
 .bouton-recherche{
@@ -173,11 +176,10 @@ height: 30%;
   object-position: center;
 }
 
-.fa-star{
+.étoile{
   padding-top: 0.5em;
   display: flex;
   flex-direction: row;
-  padding-right:0 ;
 }
 .étoile-vide{
   color: #F2F2F2;
