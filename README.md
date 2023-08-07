@@ -11,4 +11,4 @@ Le projet consistait à faire l'intégration de l'interface du site conformémen
 ![App Screenshot](https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png)
 
 
-booki-projet2.netlify.app
+liens vers le site : booki-projet2.netlify.app
